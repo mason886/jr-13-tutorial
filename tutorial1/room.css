@@ -1,0 +1,43 @@
+.room {
+  border: dashed 3px grey;
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.tv,
+.stove {
+  background-color: goldenrod;
+  width: 200px;
+  height: 30px;
+}
+
+.table {
+  border: solid 2px brown;
+  width: 250px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.table .danger {
+  background-color: red;
+}
+
+.table .warning {
+  background-color: orange;
+}
+
+.dish {
+  border: solid 1px black;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
