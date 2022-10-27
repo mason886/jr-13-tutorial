@@ -1,0 +1,62 @@
+.card {
+  width: 327px;
+  height: 478px;
+  border: 1px solid;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+}
+
+.media {
+  height: 202px;
+  background-color: bisque;
+}
+
+.content {
+  padding: 20px;
+}
+
+:root {
+  --primary: black;
+  --secondary: red;
+}
+
+.title-secondary {
+  color: var(--secondary);
+}
+
+.title-primary {
+  font-size: 24px;
+}
+
+.card-desc {
+  color: var(--secondary);
+}
+
+.tags {
+  border: 2px solid purple;
+}
+
+/* 除了长子之外的其他孩子 */
+.horizontal-space > * + * {
+  margin-left: 15px;
+}
+
+.vertical-space-medium > * + * {
+  margin-top: 15px;
+}
+
+.vertical-space-large > * + * {
+  margin-top: 25px;
+}
+
+.centralize-content {
+  display: flex;
+  justify-content: center;
+}
+
+.tag::before {
+  content: '😁';
+}
